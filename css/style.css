@@ -19,6 +19,11 @@ h1{
     font-family: "Melted Monster Regular" ;
 
 }
+@media screen and (max-width:1060px) {
+    .nav-link{
+        font-size: 17px;
+    }
+}
 /* Backgrounds */
 
 .home-header::before{
@@ -79,15 +84,20 @@ h1{
     text-align: center;
     font-size: 71px;
 }
+.div{
+    width: 100%;
+    height: 700px;
+    padding-left:65px
+}
 
 #ticket{
     border: 3px solid rgb(255, 94, 0);
     border-radius: 7px;
     width: 892px;
     height: 425px;
-    position: absolute;
+    /* position: absolute;
     left: 65px;
-    top: 270px;
+    top: 270px; */
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -157,13 +167,13 @@ h1{
 .reviews{
     width: 100%;
     background-color: rgb(220 220 220);;
-    height: 680px;
-    position: absolute;
-    top: 979px;
+    height: 700px;
+    /* position: absolute;
+    top: 979px; */
     /* border: 4px solid black ; */
     display: flex;
     flex-direction: row;
-    
+
 }
 .carousel{
     text-align: center;
@@ -209,8 +219,8 @@ h1{
 .footer {
     background-color: black;
     align-items: center;
-    position: absolute;
-    top: 1660px;
+    /* position: absolute;
+    top: 1660px; */
     height: 55px;
     width: 100%;
 }
@@ -230,14 +240,20 @@ h1{
     width: 100%;
     margin: 50px auto;
     flex-direction: row;
-    
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .c{
     margin: 10px 50px;
     height: 700px;
-
+    
     /* display: block; */
+}
+.d{
+    height: 650px;
+
 }
 
 h1{
@@ -265,15 +281,15 @@ h1{
     text-align: center;
 }
 
-video{
+#video{
     margin: 50px auto;
+    width:1280px ; height:720px;
 }
 .video{
     display: flex;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 }
-
 .footer2{
     background-color: black;
     align-items: center;
@@ -309,7 +325,7 @@ video{
 .head-gallery{
     font-weight: bold;
     font-size: 56px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .fa-heart{
     color: rgb(235, 3, 53);
@@ -321,10 +337,23 @@ video{
      margin-bottom: 0px;
      font-weight: bold;
 }
+.mx-auto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --bs-gutter-x: 0rem; 
+    margin: 0px auto;
+}
+.lead{
+    text-align: center;
+    margin: 10px auto;
+    padding-left: 20px;
+}
 #gallery-img{
     width: 300px;
     height: 300px;
 }
+
 
 /* booking page */
 
@@ -333,7 +362,7 @@ video{
     display: flex;
     flex-direction: row;
     /* border:2px solid black; */
-    height: 100vh;
+    height: 100%;
 }
 
 .boxx{
@@ -453,7 +482,6 @@ input, select, textarea {
 }
 
 
-
 .contacts{
     width: 100%;
     height: 500px;
@@ -480,7 +508,7 @@ input, select, textarea {
 .box-contact p{
     font-size: 23px;
     text-align: center;
-    padding:0px 100px;
+    padding:0px 19px;
 }
 
 .icons{
@@ -493,3 +521,27 @@ input, select, textarea {
 .social-media{
     color: black;
 }
+
+.navbar-toggler{
+    color: whitesmoke; 
+    border: 2px solid black;
+     background-color: whitesmoke;
+}
+.navbar-toggler-icon{
+    /* color: whitesmoke; */
+    background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:1060px) {
+    .nav-link{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:993px) {
+    
+    .container-fluid::before{
+        content: '';
+        background: url("../img/1-new.png");
+    }
+}
+
