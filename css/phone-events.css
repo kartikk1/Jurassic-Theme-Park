@@ -60,3 +60,8 @@
 
 }
 
+@media screen and (max-width:433px)
+{
+    .c{
+        margin: 10px 20px;
+        height: 518px; } }
