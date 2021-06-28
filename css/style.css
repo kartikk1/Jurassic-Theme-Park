@@ -6,6 +6,12 @@
     font-weight: normal;
     src: local('Melted Monster Regular'), url('Melted Monster.woff') format('woff');
 }
+@font-face {
+    font-family: "Melted Monster Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Melted Monster Regular'), url('https://kartikk1.github.io/Jurassic-Theme-Park/css/fonts/Melted Monster.woff') format('woff');
+}
 
 *{
     /* font-family: 'Open Sans', sans-serif; */
