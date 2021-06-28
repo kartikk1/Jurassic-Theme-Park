@@ -32,6 +32,7 @@ h1{
 }
 /* Backgrounds */
 
+
 .home-header::before{
     content: '';
     background: url("../img/bg2.jpg");
@@ -92,7 +93,7 @@ h1{
 }
 .div{
     width: 100%;
-    height: 700px;
+    height: 595px;
     padding-left:65px
 }
 
@@ -142,6 +143,12 @@ h1{
    display: block;
    width: 100px;
    text-decoration-line: line-through;
+}
+#newprice{
+    text-decoration: none; color: #ff5e00;
+}
+#newprice:hover{
+    color: rgb(3, 163, 255);
 }
 #box2 h3{
     color: rgb(255, 94, 0);
