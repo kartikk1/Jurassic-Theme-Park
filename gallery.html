@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="(max-width :1210px)" href="css/phone-gallery.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
     <!-- <link rel="stylesheet" href="style2.css"> -->
     
@@ -23,9 +24,9 @@
      
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">STUDIOS</a>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" style="width: 60px;">JURASSIC PARK</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-caret-down" style="color: black;"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -67,12 +68,12 @@
         <h1 class="fw-light head-gallery" style="font-size: 4rem;">Gallery</h1>
         <p class="lead text-muted">Some good memories of our theme park shared by the visitors. Come , explore and share your memories , it can also be featured here.</p>
         <p>
-          <a href="https://mail.google.com/a//?view=cm&fs=1&to=kukrejakartik010203@gmail.com" target="blank" class="btn btn-primary my-2">Share your memories </a>
+          <a href="https://mail.google.com/a//?view=cm&fs=1&to=kukrejakartik010203@gmail.com" target="blank" class="btn btn-primary my-2 one">Share your memories </a>
           <a href="booking.html" class="btn btn-secondary my-2">Book tickets </a>
         </p>
       </div>
       <div class="col-lg-3 col-md-2 mx-auto">
-        <img src="img/gallery2.png" id="gallery-img" alt="">
+        <img src="img/gallery2.png" class="dtwo" id="gallery-img" alt="">
         </p>
       </div>
     </div>
@@ -241,8 +242,15 @@
     <p>Copyright © STUDIOS ORGANIZATION 2021-22 </p>
 </div>
 
-
+    <script>
+      const heart = document.querySelectorAll(".fa-heart");
+      heart.forEach(btn=>{
+        btn.addEventListener('click',()=>{
+          setInterval(document.querySelector())
+        })
+      })
+    </script>
     <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
