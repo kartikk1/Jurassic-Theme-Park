@@ -101,7 +101,7 @@ h1{
     border: 3px solid rgb(255, 94, 0);
     border-radius: 7px;
     width: 892px;
-    height: 425px;
+    /* height: 425px; */
     /* position: absolute;
     left: 65px;
     top: 270px; */
@@ -113,7 +113,7 @@ h1{
 .box{
     display: inline-block;
     width: 335px;
-    height: 419px;
+    /* height: 419px; */
     padding: 0px;
     background-color: rgb(255, 255, 255);
 }
@@ -180,7 +180,7 @@ h1{
 .reviews{
     width: 100%;
     background-color: rgb(220 220 220);;
-    height: 700px;
+    /* height: 700px; */
     /* position: absolute;
     top: 979px; */
     /* border: 4px solid black ; */
@@ -360,7 +360,7 @@ h1{
 .lead{
     text-align: center;
     margin: 10px auto;
-    padding-left: 20px;
+    padding :0px 10px;
 }
 #gallery-img{
     width: 300px;
@@ -558,3 +558,15 @@ input, select, textarea {
     }
 }
 
+
+
+/* changes  */
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.rowgutter{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+}

@@ -65,8 +65,8 @@
         height: 55px;
         width: 100%;
     }
-    .reviews {
-        height: 655px; }
+    /* .reviews {
+        height: 655px; } */
 } 
 
 @media screen and (max-width:800px){
@@ -82,12 +82,12 @@
     #ticket{
         /* position: absolute; */
         /* left: 50px; */
-        height: 472px;
+        /* height: 472px; */
         width: 600px;
     }
     .box{
         width: 400px;
-        height: 466px;
+        /* height: 466px; */
     }
     #reviews{
         width: 80%;
@@ -110,13 +110,13 @@
     #ticket{
         /* position: absolute; */
         /* left: 50px; */
-        height: 340px;
+        /* height: 340px; */
         width: 500px;
     }
     .box{
         display: inline-block;
         width: 335px;
-        height: 334px;
+        /* height: 334px; */
     }
     #box2 h3{
         font-size: 16px;
@@ -149,17 +149,20 @@
 @media screen and (max-width:399px)
 {
     .reviews {
-        height: 444px; }
+        /* height: 444px; */
+     }
     }
 @media screen and (max-width:600px)
 {
     .reviews {
-        height: 553px; }
+        /* height: 553px; */
+     }
     }
 @media screen and (min-width:1404px) and (max-width:1600px)
 {
     .reviews {
-        height: 750px; }
+        /* height: 750px; */
+     }
     }
 
 @media screen and (max-width:567px)
@@ -176,7 +179,7 @@
         display: flex;
         flex-direction: column;
         width: 400px;
-        height: 669px;
+        /* height: 669px; */
     }
     #box1{
         width: 395px !important;
@@ -205,11 +208,11 @@
         display: flex;
         flex-direction: column;
         width: 300px;
-        height: 669px;
+        /* height: 669px; */
     }
     #box1{
         width: 295px !important;
-        height: 240px;
+        /* height: 240px; */
     }
     #box2{
         width: 295px !important;
@@ -234,3 +237,11 @@
         font-size: 11px;
 }
 }
+
+
+/* @media screen and (max-width:767px)
+{
+.carousel-caption p{
+    font-size: 20px;
+}
+} */
