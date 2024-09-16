@@ -1,0 +1,84 @@
+.container-form{
+  width: 400px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+@media screen and (max-width:800px)
+{
+    .container-form{
+        width: 350px;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 15px;
+        margin: 20px auto;
+    }
+    
+}
+
+@media screen and (max-width:660px)
+{
+    .container-form{
+        width: 500px;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 15px;
+        margin: 20px auto;
+    }
+    .img-box{
+        width: 100%;
+    }
+    .boxx{
+        
+        width: 100%;
+    }
+    .booking{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:554px)
+{
+    .container-form{
+        width: 400px;
+    }
+    .footer2 p{
+        font-size: 16px;
+}
+}
+@media screen and (max-width:454px)
+{
+    .container-form{
+        width: 400px;
+    }
+    .footer2 p{
+        font-size: 14px;
+}
+}
+@media screen and (max-width:410px)
+{
+    .container-form{
+        width: 350px;
+    }
+}
+@media screen and (max-width:387px)
+{
+    
+    .footer2 p{
+        font-size: 11px;
+}
+}
+@media screen and (max-width:360px)
+{
+    .container-form{
+        width: 300px;
+    }
+}
+@media screen and (max-width:310px)
+{
+    .container-form{
+        width: 250px;
+    }
+}

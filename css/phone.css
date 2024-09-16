@@ -1,0 +1,247 @@
+.dragon img {
+    margin-top: 40px;
+    width: 200px;
+}
+
+.dragon {
+    width: 30%;
+}
+
+#reviews{
+    width: 60%;
+}
+
+.welcome {
+    margin: 51px auto;
+    text-align: center;
+    font-size: 51px;
+}
+
+#box2 h3{
+    
+    font-weight: bold;
+    text-align: center;
+}
+.head-box{
+    padding-top: 10px;
+}
+#box2 h4{
+    font-size: 17px;
+    text-align: center;
+}
+#box2 h5{
+    font-size: 15px;
+    text-align: center;
+}
+#box2 p{
+    font-size: 12px;
+    text-align: center;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+}
+.reviews {
+    width: 100%;
+    background-color: rgb(220 220 220);
+    /* height: 736px; */
+    /* position: absolute;
+    top: 844px; } */
+}
+
+    .footer {
+        
+        top: 1575px;
+    }
+
+@media screen and (max-width:1260px){
+    .footer {
+        background-color: black;
+        align-items: center;
+        /* position: absolute;
+        top: 1469px; */
+        height: 55px;
+        width: 100%;
+    }
+    /* .reviews {
+        height: 655px; } */
+} 
+
+@media screen and (max-width:800px){
+
+    .dragon img {
+        margin-top: 50px;
+        width: 100px;
+    }
+
+    .dragon {
+        width: 10%;
+    }
+    #ticket{
+        /* position: absolute; */
+        /* left: 50px; */
+        /* height: 472px; */
+        width: 600px;
+    }
+    .box{
+        width: 400px;
+        /* height: 466px; */
+    }
+    #reviews{
+        width: 80%;
+    }
+}
+@media screen and (min-width:560px ) and (max-width:699px){
+
+    .dragon img {
+        margin-top: 50px;
+        width: 100px;
+    }
+
+    .dragon {
+        width: 10%;
+    }
+    
+    #reviews{
+        width: 80%;
+    }
+    #ticket{
+        /* position: absolute; */
+        /* left: 50px; */
+        /* height: 340px; */
+        width: 500px;
+    }
+    .box{
+        display: inline-block;
+        width: 335px;
+        /* height: 334px; */
+    }
+    #box2 h3{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .head-box{
+        padding-top: 9px;
+    }
+    #box2 h4{
+        font-size: 14px;
+        text-align: center;
+    }
+    #box2 h5{
+        font-size: 12px;
+        text-align: center;
+    }
+    #box2 p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .features li{
+        font-size: 11px;
+    }
+    hr{
+        margin: 5px;
+    }
+    
+}
+@media screen and (max-width:399px)
+{
+    .reviews {
+        /* height: 444px; */
+     }
+    }
+@media screen and (max-width:600px)
+{
+    .reviews {
+        /* height: 553px; */
+     }
+    }
+@media screen and (min-width:1404px) and (max-width:1600px)
+{
+    .reviews {
+        /* height: 750px; */
+     }
+    }
+
+@media screen and (max-width:567px)
+{
+
+    .welcome {
+        margin: 40px auto;
+        text-align: center;
+        font-size: 40px;
+    }
+    #reviews h1 {
+        font-size: 51px; }
+    #ticket{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        /* height: 669px; */
+    }
+    #box1{
+        width: 395px !important;
+    }
+    #box2{
+        width: 395px !important;
+    }
+    .three{
+        width: 395px !important;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:400px)
+{
+    .welcome {
+        margin: 40px auto;
+        text-align: center;
+        font-size: 40px;
+    }
+    #reviews h1 {
+        font-size: 51px; }
+    #ticket{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        /* height: 669px; */
+    }
+    #box1{
+        width: 295px !important;
+        /* height: 240px; */
+    }
+    #box2{
+        width: 295px !important;
+    }
+    .three{
+        width: 295px !important;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .dragon img {
+        margin-top: 50px;
+        width: 80px;
+    }
+    #reviews h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:387px)
+{
+    .footer2 p{
+        font-size: 11px;
+}
+}
+
+
+/* @media screen and (max-width:767px)
+{
+.carousel-caption p{
+    font-size: 20px;
+}
+} */
